@@ -30,7 +30,7 @@ namespace PersonalQ
 
             if (textBox != null)
             {
-                textBox.TextChanged += delegate
+                textBox.TextChanged += delegate                    //HAHAHAHAH
                 {
                     this.theWord.IsDropDownOpen = true;
                     this.theWord.SelectedIndex = -1;
